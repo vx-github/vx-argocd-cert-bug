@@ -1,0 +1,94 @@
+Generate and apply 5 Selfsigned Certs with 60 seconds between
+
+Generating Selfsigned Cert with Organization:  Argo CD Cert Test number 1
+
+Generating a RSA private key
+........+++++
+............................+++++
+writing new private key to 'cert/key.pem'
+-----
+
+2022-11-09 00:42:45
+subject=C = NL, O = Argo CD Cert Test number 1, CN = localhost
+notBefore=Nov  8 23:42:45 2022 GMT
+notAfter=Nov 18 23:42:45 2022 GMT
+serial=0ECEE997C11F8143A676DBBBC50D9A1719FD228C
+
+secret/argocd-server-tls created
+
+---------------------------------------------------
+Waiting 60 seconds for updating 'argocd-server-tls'
+
+Generating Selfsigned Cert with Organization:  Argo CD Cert Test number 2
+
+Generating a RSA private key
+.......+++++
+...+++++
+writing new private key to 'cert/key.pem'
+-----
+
+2022-11-09 00:43:46
+subject=C = NL, O = Argo CD Cert Test number 2, CN = localhost
+notBefore=Nov  8 23:43:46 2022 GMT
+notAfter=Nov 18 23:43:46 2022 GMT
+serial=677B873D69800B52FF5013DA7E3CA8EFC84D5AD1
+
+secret/argocd-server-tls configured
+
+---------------------------------------------------
+Waiting 60 seconds for updating 'argocd-server-tls'
+
+Generating Selfsigned Cert with Organization:  Argo CD Cert Test number 3
+
+Generating a RSA private key
+.............+++++
+.............+++++
+writing new private key to 'cert/key.pem'
+-----
+
+2022-11-09 00:44:46
+subject=C = NL, O = Argo CD Cert Test number 3, CN = localhost
+notBefore=Nov  8 23:44:46 2022 GMT
+notAfter=Nov 18 23:44:46 2022 GMT
+serial=3B76FE886CDA6AD7D7CE00FE4C709542D5E2F852
+
+secret/argocd-server-tls configured
+
+---------------------------------------------------
+Waiting 60 seconds for updating 'argocd-server-tls'
+
+Generating Selfsigned Cert with Organization:  Argo CD Cert Test number 4
+
+Generating a RSA private key
+..........................................+++++
+..........+++++
+writing new private key to 'cert/key.pem'
+-----
+
+2022-11-09 00:45:46
+subject=C = NL, O = Argo CD Cert Test number 4, CN = localhost
+notBefore=Nov  8 23:45:46 2022 GMT
+notAfter=Nov 18 23:45:46 2022 GMT
+serial=50ECB9A0F5A80321895AA4ED3B4E119E3D87C3D3
+
+secret/argocd-server-tls configured
+
+---------------------------------------------------
+Waiting 60 seconds for updating 'argocd-server-tls'
+
+Generating Selfsigned Cert with Organization:  Argo CD Cert Test number 5
+
+Generating a RSA private key
+...................................................................................................................................+++++
+.......................+++++
+writing new private key to 'cert/key.pem'
+-----
+
+2022-11-09 00:46:47
+subject=C = NL, O = Argo CD Cert Test number 5, CN = localhost
+notBefore=Nov  8 23:46:47 2022 GMT
+notAfter=Nov 18 23:46:47 2022 GMT
+serial=1C64C0BA7B3DB532556238336CA81BAE4E88CA44
+
+secret/argocd-server-tls configured
+
