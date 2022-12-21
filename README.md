@@ -22,14 +22,14 @@ Start the kind cluster by running the script:
 ```
 
 ### 02 - Deploy ArgoCD
-Deploy ArgoCD v2.4.17
+Deploy ArgoCD v2.4.18
 ```
-./02_deploy-argocd.sh v2.4.17
+./02_deploy-argocd.sh v2.4.18
 ```
 ***or***
-Deploy ArgoCD v2.5.2
+Deploy ArgoCD v2.5.5
 ```
-./02_deploy-argocd.sh v2.5.2
+./02_deploy-argocd.sh v2.5.5
 ```
 
 Wait for ArgoCD to get ready on: https://localhost:30000/
